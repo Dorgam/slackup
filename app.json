@@ -1,0 +1,12 @@
+{
+  "name": "Slackup - Slack Backup Utility",
+  "description": "Ruby script that backup your slack conversations to your Dropbox account.",
+  "repository": "https://github.com/heroku/node-js-sample",
+  "keywords": ["ruby", "slack", "dropbox"],
+  "addons": 
+  [
+    {
+    "plan": "scheduler:standard"
+    }
+  ]
+}

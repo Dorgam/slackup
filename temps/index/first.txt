@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Slackups</title>
+</head>
+<body>
+<h1 style = "text-align: center;">Welcome to Slackup!</h1>

@@ -1,0 +1,3 @@
+<h6 style = "text-align: center;">Slackup was developed by this awesome guy: <a href = "https://twitter.com/TheDorgam">@TheDorgam</a></h6>
+</body>
+</html>
