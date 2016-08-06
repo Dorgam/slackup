@@ -314,8 +314,8 @@ def download_jsons dropbox_tk, username
       FileUtils.mkpath "jsons/" + username + "/ims/"
       File.open(save_url, "w") {|f| f.write(downloaded_file)}
     end
-  #rescue
-    #puts "No jsons folder, This is first time backup"
+  rescue
+    puts "No jsons folder, This is first time backup"
   end
 end
 
