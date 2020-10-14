@@ -1,10 +1,12 @@
-#Slackup - Slack backup utility
+NOTE: This repo is currently obsolete due to changes in the APIs
 
-##Introduction
+# Slackup - Slack backup utility
+
+## Introduction
 
 Slackup is tool that does regular backup (Each 10 minutes, daily, or weekly) to your Slack account (at a team you select) then it union the new data with the stored data (.json files) in your Dropbox account. Finally, it generate HTML files and backs them up again (along with union jsons) to your dropbox account.
 
-##Installation
+## Installation
 
 To install Slackup, simply click on this Heroku button:
 
@@ -12,7 +14,7 @@ To install Slackup, simply click on this Heroku button:
 
 Once the application is installed on your Heroku account, use the setup guide to backup your application
 
-##Setup Guide
+## Setup Guide
 
 To schedule backup for a slack account you need to collect three infos:
 
@@ -20,14 +22,14 @@ To schedule backup for a slack account you need to collect three infos:
 * Slack Authentication Token
 * Dropbox Authentication Token
 
-###Slack Authentication Token:
+### Slack Authentication Token:
 
 * Go to Slack [Web Api](https://api.slack.com/web)
 * Scroll down and click on “Generate test tokens” Button
 * Click on “Create token” button that is parallel to team you want to backup its conversations
 * Copy the new appearing token and store it somewhere safe
 
-###Dropbox Authentication Token:
+### Dropbox Authentication Token:
 
 * Go to Dropbox [App Console](https://www.dropbox.com/developers/apps).
 * Click on Create App
@@ -39,7 +41,7 @@ To schedule backup for a slack account you need to collect three infos:
   * In the next page, scroll down until you find “Generate” button
   * . Copy the generated token and keep it somewhere safe
 
-##Adding Your Slack Account to Heroku Scheduler:
+## Adding Your Slack Account to Heroku Scheduler:
 
 * Login to [Heroku](https://dashboard.heroku.com/apps)
 * Select Slackup application
@@ -49,7 +51,7 @@ To schedule backup for a slack account you need to collect three infos:
 * Change the other options as you wish.
 * Click "Save" and enjoy.
 
-##Licence
+## Licence
 
 MIT License
 
